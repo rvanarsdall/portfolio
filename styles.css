@@ -1,0 +1,97 @@
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+
+}
+.title{
+    animation: fadeIN  2s; 
+}
+@keyframes fadeIN {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+ul li {
+    line-height: 2em;
+}
+
+.navbar-btn{
+    margin-top:2%;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+#nav {
+    background-color: #2C394F;
+    color: #fff;
+
+}
+
+.card {
+    border: 0;
+    min-width: 350px;
+}
+
+#projects {
+    background-color: #383F4A;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#projects h2 {
+    color: white;
+}
+
+#about-me img {
+    border-radius: 50%;
+}
+
+#about-me p {
+    padding-top: 15px;
+
+}
+
+.vertical {
+    margin-top: 10%;
+    position: relative;
+}
+
+#about-me {
+    background-color: #ecf0f1;
+    background: linear-gradient(rgba(213, 213, 223, 0.5), rgba(115, 115, 129, 0.5)), url(img/background-about-me.png);
+    background-size: cover;
+    padding: 20px;
+    animation: fadeIN 2s;
+}
+
+section {
+    padding: 15px 0 10px;
+}
+
+footer {
+
+    color: white;
+    background-color: #2C394F;
+    font-size: 1.2em;
+   padding: 10px 0 10px;
+}
+
+
+.social-icon {
+    margin: 20px 10px;
+  }
+  .social-icon:hover{
+    color:yellow;
+  }
+
+  @media screen and (max-width: 1024px) {
+      .title-image{
+          width: 100%;
+
+      }
+
+    }
