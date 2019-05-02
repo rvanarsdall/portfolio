@@ -40,6 +40,8 @@ ul li {
     background-color: #383F4A;
     padding-top: 15px;
     padding-bottom: 15px;
+    animation: slideInDown 3s;
+
 }
 
 #projects h2 {
@@ -65,7 +67,8 @@ ul li {
     background: linear-gradient(rgba(213, 213, 223, 0.5), rgba(115, 115, 129, 0.5)), url(img/background-about-me.png);
     background-size: cover;
     padding: 20px;
-    animation: fadeIN 2s;
+    animation: slideInDown 3s;
+
 }
 
 section {
